@@ -8,6 +8,7 @@
         tools:context=".MainActivity">
 
     <TextView
+            android:id="@+id/messageChr"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello World chr!"
@@ -17,3 +18,6 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>
+
+        <!-- kommentarer -->
+        <!-- linjen "android:id="@+id/message" kommer fra KotlinForAndroidDevs 27/226  -->
